@@ -1,14 +1,15 @@
-.jumbotron {
+.navbar {
     background-image: url(../img/Sprinkle_fadedonwhitebackground.png);
     background-size: cover;
-    padding: 15px;
+    padding: 10;
 }
 #sugarLogo {
-    width: 250px;
+    width: 200px;
 }
 ul.navbar-nav {
     color: black;
 }
+
 .nav-link {
     color: black;
 }
@@ -17,10 +18,13 @@ a.nav-link.active {
     font-weight: bold;
 }
 .vid-bg {
-    position: absolute;
     width: 100%;
     height: 100%;
+}
+.video-container {
+    position: relative;
     margin-top: -32px;
+    z-index: -1;
 }
 .overlay { 
     position: absolute;
@@ -30,5 +34,18 @@ a.nav-link.active {
     height: 100%;
     background-color: white;
     opacity: 0.5;
+}
+.content {
+    position: absolute;
+    top: 40%;
+    left: 30%;
     z-index: 1;
+}
+#hist-counter {
+    background-color: #f7d9db;
+    margin-top: -10px;
+    padding: 30px;
+}
+h1 {
+    font-size: 26px;
 }

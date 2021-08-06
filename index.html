@@ -16,60 +16,85 @@
     </head>
 
     <body>
-
-        <header class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="mx-auto">
-                        <a href="index.html" ><img src="img/Logo Color_3.png" id="sugarLogo" class="img-fluid" alt="Sugar Spell Logo" /></a>
+        <!-- May not need for now -->
+        <!-- <header class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="mx-auto">
+                        </div>
                     </div>
                 </div>
-                <!-- Navbar hamburger not showing. Button is in the top left corner and a menu does open but can't be seen -->
-                <nav class="navbar navbar-inverse bg-inverse" role="navigation">
-                    <div class="container">
-                        <div class="navbar-brand">
-                            <button class="navbar-toggler navbar-toggler-right fixed-top" type="button" data-toggle="collapse" data-target="#menuToggle">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                        </div>
+                -->
 
-                        <div class="collapse navbar-collapse" id="menuToggle">
-                            <ul class="navbar-nav navbar-right">
-                                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services / Pricing</a></li>
-                                <li class="nav-item"><a class="nav-link" href="flavors.html">Flavors</a></li>
-                                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                                <li class="nav-item"><a class="nav-link" href="order.html">Order Inquiry</a></li>
-                                <li class="nav-item"><a class="nav-link" href="aboutme.html">About The Baker &#10084;</a></li>
-                                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ's</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+        <!-- Navbar hamburger not showing. Button is in the top left corner and a menu does open but can't be seen -->
+        <nav class="navbar navbar-light fixed-top" role="navigation">
+            <div class="container">
+                <a class="navbar-brand img-fluid mx-auto" href="index.html" ><img src="img/Logo Color_3.png" id="sugarLogo" alt="Sugar Spell Logo" /></a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menuToggle">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+
+                <div class="collapse navbar-collapse" id="menuToggle">
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services / Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="flavors.html">Flavors</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="order.html">Order Inquiry</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutme.html">About The Baker &#10084;</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ's</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
             </div>  
         </header>
 
-        <div class="container">
-            <!-- Can't seem to get overlay right. Did I go abot showing a video background wrong? -->
-            <div class="overlay"></div>
-                
-            <video class="vid-bg" id="tricake" playsinline autoplay loop muted>
-                <source src="vid/3_cakes_CTA.mp4" type="video/mp4" />
-            </video>
-            <div class="h-100">
-                <div class="d-flex h-100 text-center align-items-center">
-                    <div class="text-black">
-                        <!-- Text not aligning center and on top of video correctly.-->
-                        <h1 class="display-3">Video Text</h1>
-                        <p class="lead mb-0">Testing 123</p>
-                    </div>
-                </div>
+        <div class="parent-container">
+            <div class="video-container">
+                <!-- Can't seem to get overlay right. Did I go abot showing a video background wrong? -->
+                <div class="overlay"></div>
+
+                <video class="vid-bg" id="tricake" playsinline autoplay loop muted>
+                    <source src="vid/3_cakes_CTA.mp4" type="video/mp4" />
+                </video>
+                <div class="content align-items-center">
+                    <!-- Text not aligning center and fluid.-->
+                    <h1>READY FOR SOME MAGIC?</h1>
+                    <h5 class="lead mb-0">Hurry... Before I put a spell on you</h5>
+                <div>
             </div>
         </div>
 
-        <div>
-            <p>Testing 123</p>
+        <div class="container-fluid" id="hist-counter" >
+            <div class="row row-content align-items-center">
+                <div class="col-sm-3">
+                    <div class="col">
+                        <h3>4,688</h3>
+                        <p>Cupcakes Baked & Sprinkled</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col">
+                        <h3>4,688</h3>
+                        <p>Cupcakes Baked & Sprinkled</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col">
+                        <h3>4,688</h3>
+                        <p>Cupcakes Baked & Sprinkled</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col">
+                        <h3>4,688</h3>
+                        <p>Cupcakes Baked & Sprinkled</p>
+                    </div>
+                </div>
+            </div>
         </div>        
         
         <!-- <script src=""></script> --> 
