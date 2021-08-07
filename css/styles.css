@@ -9,7 +9,6 @@
 ul.navbar-nav {
     color: black;
 }
-
 .nav-link {
     color: black;
 }
@@ -20,32 +19,40 @@ a.nav-link.active {
 .vid-bg {
     width: 100%;
     height: 100%;
-}
-.video-container {
-    position: relative;
-    margin-top: -32px;
-    z-index: -1;
-}
-.overlay { 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
     opacity: 0.5;
 }
-.content {
+#heading {
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 50%;
+    left: 40%;
     z-index: 1;
 }
-#hist-counter {
+#histCounter {
     background-color: #f7d9db;
-    margin-top: -10px;
-    padding: 30px;
+    margin-top: -6px;
+    padding: 40px;
 }
 h1 {
     font-size: 26px;
+}
+#histCounter p {
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+#histCounter h3 {
+    font-family: 'Vidaloka', serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+.fa {
+    color: white;
+}
+#orderButton {
+    background-color: #D1D0F4;
+    color: white;
+    font-weight: 600;
 }
