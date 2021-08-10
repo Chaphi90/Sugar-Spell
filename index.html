@@ -1,161 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="css/styles.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Playfair+Display&family=Poppins:wght@100;200;400&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Playfair+Display&family=Poppins:wght@100;200;400&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
 
-    <title>Sugar Spell | A Little Bit of Magic in Every Bite!</title>
-</head>
+        <title>Sugar Spell | A Little Bit of Magic in Every Bite!</title>
+    </head>
 
-<body>
-    <!-- May not need for now -->
-    <!-- <header class="jumbotron jumbotron-fluid">
+    <body>
+        <!-- May not need for now -->
+        <!-- <header class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="mx-auto">
+                        </div>
+                    </div>
+                </div>
+                -->
+
+        <nav class="navbar navbar-light fixed-top" role="navigation">
             <div class="container">
-                <div class="row">
-                    <div class="mx-auto">
+                <a class="navbar-brand img-fluid mx-auto" href="index.html" ><img src="img/Logo Color_3.png" id="sugarLogo" alt="Sugar Spell Logo" /></a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menuToggle">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+
+                <div class="collapse navbar-collapse" id="menuToggle">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services / Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="flavors.html">Flavors</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="order.html">Order Inquiry</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutme.html">About The Baker &#10084;</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ's</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="parent-container">
+            <div class="video-container">
+                <!-- Can't seem to get overlay right. Did I go about showing a video background wrong? -->
+
+                <video class="vid-bg" id="tricake" playsinline autoplay loop muted>
+                    <source src="vid/3_cakes_CTA.mp4" type="video/mp4" />
+                </video>
+            </div>
+                <div class="col text-center" id="heading">
+                    <!-- Text not aligning center and fluid.-->
+                    <h1>READY FOR SOME MAGIC?</h1>
+                    <h2 class="lead mb-0">Hurry... Before I put a spell on you</h2>
+                    <div class="col mt-4">
+                        <a href="order.html" class="btn btn-large" role="button" id="orderButton">Cast Your Order!</a>
+                    </div>
+                <div>
+            </div>
+        </div>            
+        </div>
+
+        <div class="container-fluid" id="histCounter" >
+            <div class="row row-content align-items-center">
+                <div class="col col-sm-3">
+                    <div class="col-md-6">
+                        <i class="fa fa-heart-o fa-3x"></i>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>4,688</h3>
+                        <p>Cupcakes Baked & Sprinkled</p>
+                    </div>
+                </div>
+                <div class="col col-sm-3">
+                    <div class="col-md-6">
+                        <i class="fa fa-birthday-cake fa-3x"></i>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>267</h3>
+                        <p>Custom Cakes Frosted</p>
+                    </div>
+                </div>
+                <div class="col col-sm-3">
+                    <div class="col-md-6">
+                        <i class="fa fa-trophy fa-3x"></i>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>306</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col col-sm-3">
+                    <div class="col-md-6">
+                        <i class="fa fa-handshake-o fa-3x"></i>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>5</h3>
+                        <p>Years of Experience</p>
                     </div>
                 </div>
             </div>
-            -->
+        </div>        
 
-    <nav class="navbar navbar-light fixed-top" role="navigation">
-        <div class="container">
-            <a class="navbar-brand img-fluid mx-auto" href="index.html" ><img src="img/Logo Color_3.png" id="sugarLogo" alt="Sugar Spell Logo" /></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menuToggle">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            
-
-            <div class="collapse navbar-collapse" id="menuToggle">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.html">Services / Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="flavors.html">Flavors</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="order.html">Order Inquiry</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutme.html">About The Baker &#10084;</a></li>
-                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ's</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
+        <div class="container-fluid" id="bespoke">
+            <h4>WE USE MINDFUL INGREDIENTS TO DESIGN <strong>BESPOKE</strong> CREATIONS FOR A LITTLE BIT OF MAGIC IN EVERY BITE.</h4>
         </div>
-    </nav>
 
-    <div class="parent-container">
-        <div class="video-container">
-            <!-- Can't seem to get overlay right. Did I go abot showing a video background wrong? -->
-
-            <video class="vid-bg" id="tricake" playsinline autoplay loop muted>
-                <source src="vid/3_cakes_CTA.mp4" type="video/mp4" />
-            </video>
-            <div class="col" id="heading">
-                <!-- Text not aligning center and fluid.-->
-                <h1>READY FOR SOME MAGIC?</h1>
-                <h5 class="lead mb-0">Hurry... Before I put a spell on you</h5>
-                <div class="col mt-4">
-                    <a href="order.html" class="btn btn-large" role="button" id="orderButton">Cast Your Order!</a>
-                </div>
-            <div>
+        <div class="container-fluid" id="ourServices">
+            <h2>OUR SERVICES</h2>
+            <p>We are always exploring new treats and flavors, so please feel free to send an inquiry for a special dessert!</p>
         </div>
-    </div>
-
-    <div class="container-fluid" id="histCounter" >
-        <div class="row row-content align-items-center">
-            <div class="col-sm-3">
-                <div class="col-6">
-                    <i class="fa fa-heart-o fa-3x"></i>
-                </div>
-                <div class="col-6">
-                    <h3>4,688</h3>
-                    <p>Cupcakes Baked & Sprinkled</p>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="col">
-                    <i class="fa fa-birthday-cake fa-3x"></i>
-                </div>
-                <div class="col-6">
-                    <h3>267</h3>
-                    <p>Custom Cakes Frosted</p>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="col">
-                    <i class="fa fa-trophy fa-3x"></i>
-                </div>
-                <div class="col-6">
-                    <h3>306</h3>
-                    <p>Happy Clients</p>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="col">
-                    <i class="fa fa-handshake-o fa-3x"></i>
-                </div>
-                <div class="col-6">
-                    <h3>5</h3>
-                    <p>Years of Experience</p>
+        
+        
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 pb-4 text-center">
+                        <a href="index.html">
+                            <img src="img/Sugar Spell-hand.png" id="sugarSpellHand" alt="Sugar Spell Hand">
+                        </a>
+                        <p class="pt-4">Copyright © 2021 Sugar Spell</p>
+                    </div>
+                    <div class="col-md-4 pb-4 text-center">
+                        <h6>Help and Information</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="order.html">Place An Order</a></li>
+                            <li><a href="#">Cake Care and Cutting (How To)</a></li>
+                            <li><a href="faq.html">Frequently Asked Questions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h6>About Us</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Services</a></li>
+                            <li><a href="#">Flavors</a></li>
+                            <li><a href="#">About The Baker &#10084;</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>        
+        </footer>
 
-    <div class="container-fluid" id="bespoke">
-        <h4>WE USE MINDFUL INGREDIENTS TO DESIGN BESPOKE CREATIONS FOR A LITTLE BIT OF MAGIC IN EVERY BITE.</h4>
-    </div>
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <div class="container-fluid" id="ourServices">
-        <h2>OUR SERVICES</h2>
-        <p>We are always exploring new treats and flavors, so please feel free to send an inquiry for a special dessert!</p>
-    </div>
-    
-     
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <a href="index.html">
-                        <img src="img/Sugar Spell-hand.png" id="sugarSpellHand" alt="Sugar Spell Hand">
-                    </a>
-                    <p>Copyright © 2021 Sugar Spell</p>
-                </div>
-                <div class="col text-center">
-                    <h5>Help and Information</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="order.html">Place An Order</a></li>
-                        <li><a href="#">Cake Care and Cutting (How To)</a></li>
-                        <li><a href="faq.html">Frequently Asked Questions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="col text-center">
-                    <h5>About Us</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html">Services</a></li>
-                        <li><a href="#">Flavors</a></li>
-                        <li><a href="#">About The Baker &#10084;</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-</body>
+    </body>
 
 </html>

@@ -8,6 +8,8 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="css/styles.css" />
 
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Playfair+Display&family=Poppins:wght@100;200;400&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
@@ -26,7 +28,6 @@
                 </div>
                 -->
 
-        <!-- Navbar hamburger not showing. Button is in the top left corner and a menu does open but can't be seen -->
         <nav class="navbar navbar-light fixed-top" role="navigation">
             <div class="container">
                 <a class="navbar-brand img-fluid mx-auto" href="index.html" ><img src="img/Logo Color_3.png" id="sugarLogo" alt="Sugar Spell Logo" /></a>
@@ -36,7 +37,7 @@
                 
 
                 <div class="collapse navbar-collapse" id="menuToggle">
-                    <ul class="navbar-nav navbar-right">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="services.html">Services / Pricing</a></li>
                         <li class="nav-item"><a class="nav-link" href="flavors.html">Flavors</a></li>
@@ -49,3 +50,44 @@
                 </div>
             </div>
         </nav>
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 pb-4 text-center">
+                        <a href="index.html">
+                            <img src="img/Sugar Spell-hand.png" id="sugarSpellHand" alt="Sugar Spell Hand">
+                        </a>
+                        <p class="pt-4">Copyright © 2021 Sugar Spell</p>
+                    </div>
+                    <div class="col-md-4 pb-4 text-center">
+                        <h5>Help and Information</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="order.html">Place An Order</a></li>
+                            <li><a href="#">Cake Care and Cutting (How To)</a></li>
+                            <li><a href="faq.html">Frequently Asked Questions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h5>About Us</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Services</a></li>
+                            <li><a href="#">Flavors</a></li>
+                            <li><a href="#">About The Baker &#10084;</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+</body>
+    
+</html>

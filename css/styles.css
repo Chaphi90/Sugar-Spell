@@ -24,16 +24,23 @@ a.nav-link.active {
 #heading {
     position: absolute;
     top: 50%;
-    left: 40%;
     z-index: 1;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #histCounter {
     background-color: #f7d9db;
-    margin-top: -6px;
     padding: 40px;
 }
 h1 {
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 900;
+}
+h5 {
+    color: black;
+}
+h6 {
+    color: white;
 }
 #histCounter p {
     color: white;
@@ -62,19 +69,23 @@ h1 {
 }
 #bespoke h4 {
     text-align: center;
-    padding: 30px;
+    padding: 40px;
     font-family: 'Roboto Condensed', sans-serif;
 
 }
 #ourServices {
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
 
 }
 #ourServices h2 {
     color: #4A416B;
     letter-spacing: 9px;
     font-weight: 900;
+    font-size: 42px;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
 }
 #ourServices p {
     color: grey;
@@ -84,4 +95,17 @@ h1 {
 }
 .site-footer {
     background-color: #F5DCD7;
-    padding: 70px 0; }
+    padding: 70px 0; 
+    color: grey;
+    font-size: 14px;
+}
+a {
+    color: grey;
+    padding: 1px;
+}
+.parent-container {
+    position: relative;
+    margin-top: 136px;
+    max-height: 600px;
+    overflow: hidden;
+}
